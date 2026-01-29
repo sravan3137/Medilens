@@ -1,0 +1,9 @@
+.fixed {
+  resize: none;
+  height: 5rem;
+}
+.form-control.border-0 {
+  border: none !important;
+  box-shadow: none !important; /* removes the blue outline on focus */
+}
+
