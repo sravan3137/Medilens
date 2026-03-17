@@ -78,3 +78,14 @@ REPLICATE_API_TOKEN=your_replicate_api_token_here
 ```
 get your replicate api token for free at https://replicate.com/account/api-tokens
 
+## Database Setup
+
+This project uses synthetic patient data due to the unavailability of real medical datasets.
+
+Currently, the SQLite database is not included in the repository.
+
+To run the project, you will need to:
+- Create a local SQLite database (`db.sqlite3`)
+- Populate it with sample patient records
+
+(Note: A data generation script will be added in future updates.)
